@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+	<link rel="shortcut icon" href="img/favicon.jpg">
+</head>
+<body>
+	<div class="pedido">
+		<img src="img/colapapas.png">
+		<p>Papas con cola</p>
+		<p>$1,00</p>
+	</div>
+	<div class="todo">
+	<div class="cantidad">
+		<p>Cantidad:</p>
+		<p>1</p>
+		<input type="button" name="mas" value="+" class="a">
+		<input type="button" name="menos" value="-" class="a">
+	</div>
+	<div class="bebida">
+		<p>Seleccione su bebida:</p>
+		<select>
+			<option>Coca-Cola</option>
+			<option>Pepsi</option>
+			<option>Fanta</option>
+		</select>
+	</div>
+	<div class="extras">
+	<p>Extras:</p>
+	<ul>
+		<li><p>Papas extra:</p> <input type="button" name="papas" value="+$1" class="a"></li>
+		<li><p>Alitas de pollo:</p> <input type="button" name="pollo" value="+$3" class="a"></li>
+		<li><p>Ensalada:</p> <input type="button" name="ensalada" value="+$1,50" class="a"></li>
+	</ul>
+	</div>
+	<div class="alergias">
+		<p>Alergías</p>
+		<input type="text" name="alergia">
+	</div>
+	<div class="pago">
+		<p>Método de pago:</p>
+		<select>
+			<option>Efectivo</option>
+			<option>Tarjeta</option>
+		</select>
+	</div>
+	<div class="pedir">
+		<input type="button" name="pedir" value="Pagar" class="a">
+	</div>
+	</div>
+</body>
+</html>

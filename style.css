@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Yusei+Magic&display=swap');
+body
+{
+	background-color: black;
+}
+body p 
+{
+	color: white;
+}
+header{
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-color: #56070C;
+	width: 100%; 
+}
+header	.container{
+	display: flex;
+	align-items: center;
+}
+header	.container	.logo{
+	width: 100px;
+}
+header .container nav a{
+	font-family: Potta One;
+	color: black;
+	text-decoration: none;
+	margin: 100px;
+	font-size: 25px;
+}
+
+#inicio 
+{
+	position: relative;
+	padding: 15px;
+	margin-bottom: 50px;
+}
+#inicio .pac 
+{
+	height: 400px;
+	margin-top: 74px;
+	padding-left: 22%;
+}
+#inicio p 
+{
+ 	font-size: 50px;
+ 	margin-top: -43px;
+ 	text-align: center;
+ 	font-family: Potta One;
+}
+#menu
+{
+	background-color: #880505;
+}
+#menu img
+{
+	width: 275px;
+	height: 275px;
+	margin-left: 250px;
+	margin-bottom: 50px;
+}
+#menu h3
+{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: Potta One;
+	margin-top: -50px;
+}
+#menu .xd 
+{
+	position: relative;
+	display: flex;
+}
+
+#menu .xdx 
+{
+	position: relative;
+	display: flex;
+}
+#menu p
+{
+	padding-left: 15px;
+	width: 150px;
+	font-size: 20px;
+	font-family: Balsamiq Sans;
+}
+#menu img:hover
+{
+	margin-left: 229px;
+	margin-bottom: 35px;
+	margin-top: -20px;
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	background-color: black;
+}
+#menu .pe p 
+{
+	position: absolute;
+	background-color: black;
+	width: 50px;
+	padding: 1px 1px 1px 1px;
+}
+footer img{
+	position: relative;
+	width: 600px;
+	padding-left: 30%;
+}
+footer p 
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: Yusei Magic;
+}
+footer ul
+{
+	font-size: 15px;
+	font-family: Yusei Magic;
+	color: white;	
+	list-style: none;
+}
+footer .cont 
+{
+	margin-left: 500px;
+	display: flex;
+}
+footer ul img 
+{
+	width: 30px;
+}
+footer li
+{
+	margin-bottom: 20px;
+}
+footer h3
+{
+	color: white;
+	font-family: Potta One;
+	display: inline-flex;
+	margin-left: 700px;
+}
